@@ -39,6 +39,7 @@ const FormComponent = ({ addFormValues }) => {
                     {...field}
                     label="Name"
                     variant="outlined"
+                     type="text"
                     error={touched.name && !!errors.name}
                     helperText={touched.name && errors.name}
                     fullWidth
@@ -53,6 +54,7 @@ const FormComponent = ({ addFormValues }) => {
                     {...field}
                     label="Email"
                     variant="outlined"
+                     type="email"
                     error={touched.email && !!errors.email}
                     helperText={touched.email && errors.email}
                     fullWidth
@@ -67,6 +69,7 @@ const FormComponent = ({ addFormValues }) => {
                     {...field}
                     label="Age"
                     variant="outlined"
+                     type="number"
                     error={touched.age && !!errors.age}
                     helperText={touched.age && errors.age}
                     fullWidth
