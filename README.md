@@ -23,6 +23,7 @@ git clone https://github.com/SenjithP/TeqBae-Form.git
 cd folderName
 npm install
 npm run dev
+```bash
 
 ### Usage
 
